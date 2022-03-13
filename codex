@@ -1,0 +1,32 @@
+Model of a Telephone Contact Centre
+A Company operates a single, moderately sized contact centre to handle sales and support for its customers.
+Service levels have started to decline and the Company understands that it will lose business if service levels
+are not improved. The Management Board would like to model operations so that current and future policy
+changes can be evaluated.
+The centre operates on a 24-hour basis but contact arrival volumes differ distinctly by 8-hour shift. Because
+the major service problems are occurring during the day shift which is from 8 a.m. to 4 p.m., focus on that
+period. Customers contact the centre via three separate points of entry. Recent arrival histories show that the
+following contact volume levels are representative of a typical day shift. The arrivals appear to be
+independent, so assume that the interarrival times are distributed exponentially.
+Point of Entry Arrivals per Day Shift
+Toll free line (phone) 4800
+Regular line (phone) 1920
+Internet 240
+As voice calls enter, customers must pass through an IVR (Interactive Voice Response) System. The current
+IVR has a capacity of 50 ports, with callers taking an average of 15 seconds to move through the IVR.
+Internet customers proceed immediately to the main customer queue.
+The centre currently has 100 seats available for agents. For simplicity assume that all the agents are equally
+efficient, that all contacts are treated on a first come first served basis and that the queue has infinite capacity.
+There are two main categories of contacts received: sales and support, but from past records an average call
+handling time can be modelled by a Normal distribution with a mean of 8 minutes and a standard deviation of
+2 minutes per call. Records also show that callers will only remain on hold for up to 6 minutes before
+hanging up.
+The Board is interested in the following results:
+• What is the expected wait time for a customer before reaching an agent?
+• What is the average time a customer will spend in the system?
+• How many callers will abandon during a typical day?
+• What percentage of contacts on average, is answered in 5 minutes or less?
+• How many agents are required to be on duty in order to reduce the average time to answer (time in queue)
+to less than 20 seconds for 80% of customers?
+• How many additional agents would be required to obtain a service level where 90% of the contacts are
+answered in 10 seconds or less?
